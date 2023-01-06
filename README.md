@@ -3,7 +3,7 @@ House Price Prediction using Linear Regression with multiple variables
 
 In this project, we implement linear regression with multiple variables to predict the prices of houses.
 
-Problem Statement: 
+## Problem Statement: 
 Suppose you are selling your house and you want to know what a good market price would be. One way to do this is to first collect information on recent houses sold and make a model of housing prices.
 About Dataset: The file ex1data2.txt contains a training set of housing prices in Portland, Oregon. The first column is the size of the house (in square feet), the second column is the number of bedrooms, and the third column is the price of the house.
 
@@ -11,7 +11,7 @@ Packages used: pandas, matplotlib, numpy
 
 Note: This problem statement and dataset is from Coursera, Andrew Ng’s machine learning Coursework
 
-Important points to be noted:
+### Important points to be noted:
 1.	Load the dataset and display some values from the dataset. It is observed that house sizes are about 1000 times the number of bedrooms. Since features differs by orders of magnitude, first we need to perform feature scaling to make the gradient descent converge much more quickly. 
 When normalizing the features, it is important to store the values used for normalization - the mean value and the standard deviation used for the computations, as we’ll need them later.
 2.	Implement the cost function and gradient descent for linear regression with multiple variables. 
